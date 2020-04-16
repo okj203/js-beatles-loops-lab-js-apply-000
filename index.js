@@ -9,28 +9,19 @@ let theBeatlesPlay = (musicians, instruments) => {
 }
 
 
-let johnLennonFacts = facts => {
+let johnLennonFacts = factsArray => {
   let array = [];
   let i = 0
-  let str = facts[i];
   
-  while (array.length < facts.length) {
+  while (i < factsArray.length) {
     
-    array.push(str + `!!!`);
-    
+    array.push(`${factsArray[i]}!!!`);
+    i++;
   } 
   
   return array;
 }
 
-function johnLennonFacts(factsArray){
-  var i=0;
-  var newArray=[];
-  while (factsArray.length > i){
-    newArray.push(`${factsArray[i]}` + “!!!”);
-    i++;
-  }
-return newArray;
-}
+
 
 
