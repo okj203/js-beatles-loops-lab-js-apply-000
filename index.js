@@ -18,7 +18,7 @@ let johnLennonFacts = facts => {
     
     array.push(str + `!!!`);
     
-  } i++;
+  } 
   
   return array;
 }
