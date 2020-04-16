@@ -26,8 +26,9 @@ let johnLennonFacts = factsArray => {
 let iLoveTheBeatles = number => {
   let newArr = [];
   do {
-    array.push(`I love the Beatles!`);
+    newArr.push(`I love the Beatles!`);
     number++
-  }
+  } while (number < 15);
+  return newArr;
 }
 
