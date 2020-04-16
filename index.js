@@ -12,7 +12,8 @@ let theBeatlesPlay = (musicians, instruments) => {
 let johnLennonFacts = facts => {
   let array = [];
   let i = 0
- 
+  let str = facts[i];
+  
   while (i < facts.length) {
     
     array.push(str + `!!!`);
