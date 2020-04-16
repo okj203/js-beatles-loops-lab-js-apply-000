@@ -14,7 +14,7 @@ let johnLennonFacts = facts => {
   let i = 0
  
   while (i < facts.length) {
-    let str = facts[i];
+    
     array.push(str + `!!!`);
     
   } i++;
