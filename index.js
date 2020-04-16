@@ -26,6 +26,7 @@ let johnLennonFacts = factsArray => {
 let iLoveTheBeatles = number => {
   let newArr = [];
   do {
+    number++;
     
   }
 }
